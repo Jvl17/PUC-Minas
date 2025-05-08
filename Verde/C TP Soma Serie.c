@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) {
         soma += (double)numerador / i;
         numerador += 2;
     } 
